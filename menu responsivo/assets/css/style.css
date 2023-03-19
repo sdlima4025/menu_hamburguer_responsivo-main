@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 header {
     background-color: #24252a;
@@ -24,8 +25,6 @@ header {
     height: 50px;
 }
 
-
-
 .nav-list {
     display: flex;
     align-items: center;
@@ -33,7 +32,7 @@ header {
 
 .nav-list ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -54,24 +53,12 @@ header {
     border-radius: 5px;
     background-color: #0187a7;
 }
-.login-button button:hover  {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: red;
-}
+
 
 .login-button button a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 1.1rem;
-}
-
-.login-button button a:hover {
-    text-decoration: none;
-    color: black;;
-    font-weight: 600;
     font-size: 1.1rem;
 }
 
